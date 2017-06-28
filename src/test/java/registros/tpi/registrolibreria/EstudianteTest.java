@@ -42,7 +42,7 @@ public class EstudianteTest {
      */
     @Test
     public void testGetCarnet() {
-        System.out.println("getCarnet");
+        System.out.println("Obtiene el carnet de un estudiante");
         Estudiante instance = new Estudiante();
         String expResult = null;
         String result = instance.getCarnet();
@@ -56,7 +56,7 @@ public class EstudianteTest {
      */
     @Test
     public void testSetCarnet() {
-        System.out.println("setCarnet");
+        System.out.println("Setea el carnet de un estudiante a la base de datos");
         String carnet = "AA99999";
         Estudiante instance = new Estudiante();
         instance.setCarnet(carnet);
@@ -69,7 +69,7 @@ public class EstudianteTest {
      */
     @Test
     public void testGetCarrera() {
-        System.out.println("getCarrera");
+        System.out.println("Obtiene la carrera del estudiante");
         Estudiante instance = new Estudiante();
         int expResult = 0;
         int result = instance.getCarrera();
@@ -83,7 +83,7 @@ public class EstudianteTest {
      */
     @Test
     public void testSetCarrera() {
-        System.out.println("setCarrera");
+        System.out.println("Setea la carrera del estudiante");
         int carrera = 0;
         Estudiante instance = new Estudiante();
         instance.setCarrera(carrera);
@@ -96,7 +96,7 @@ public class EstudianteTest {
      */
     @Test
     public void testGetDui() {
-        System.out.println("getDui");
+        System.out.println("Obtiene el DUI de la persona");
         Estudiante instance = new Estudiante();
         Persona expResult = null;
         Persona result = instance.getDui();
@@ -110,7 +110,7 @@ public class EstudianteTest {
      */
     @Test
     public void testSetDui() {
-        System.out.println("setDui");
+        System.out.println("Setea el dui de la persona");
         Persona dui = null;
         Estudiante instance = new Estudiante();
         instance.setDui(dui);
@@ -121,31 +121,31 @@ public class EstudianteTest {
     /**
      * Test of hashCode method, of class Estudiante.
      */
-    @Test
-    public void testHashCode() {
-        System.out.println("hashCode");
-        Estudiante instance = new Estudiante();
-        int expResult = 0;
-        int result = instance.hashCode();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        
-    }
+//    @Test
+//    public void testHashCode() {
+//        System.out.println("Obtener el codigo del estudiante hash");
+//        Estudiante instance = new Estudiante();
+//        int expResult = 0;
+//        int result = instance.hashCode();
+//        assertEquals(expResult, result);
+//        // TODO review the generated test code and remove the default call to fail.
+//        
+//    }
 
     /**
      * Test of equals method, of class Estudiante.
      */
-    @Test
-    public void testEquals() {
-        System.out.println("equals");
-        Object object = null;
-        Estudiante instance = new Estudiante();
-        boolean expResult = false;
-        boolean result = instance.equals(object);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        
-    }
+//    @Test
+//    public void testEquals() {
+//        System.out.println("equals");
+//        Object object = null;
+//        Estudiante instance = new Estudiante();
+//        boolean expResult = false;
+//        boolean result = instance.equals(object);
+//        assertEquals(expResult, result);
+//        // TODO review the generated test code and remove the default call to fail.
+//        
+//    }
 
     /**
      * Test of toString method, of class Estudiante.
