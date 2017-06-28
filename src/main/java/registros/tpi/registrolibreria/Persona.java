@@ -106,4 +106,11 @@ public class Persona implements Serializable {
         return "registros.tpi.registrolibreria.Persona[ dui=" + dui + " ]";
     }
     
+    public void cagar(){
+    int a,b;
+    a=10;
+    b=2;
+    a=a+b;
+    }
+    
 }
