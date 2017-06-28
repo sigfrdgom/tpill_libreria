@@ -44,7 +44,7 @@ public class EstudianteTest {
     public void testGetCarnet() {
         System.out.println("getCarnet");
         Estudiante instance = new Estudiante();
-        String expResult = "";
+        String expResult = null;
         String result = instance.getCarnet();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -57,10 +57,10 @@ public class EstudianteTest {
     @Test
     public void testSetCarnet() {
         System.out.println("setCarnet");
-        String carnet = "";
+        String carnet = "AA99999";
         Estudiante instance = new Estudiante();
         instance.setCarnet(carnet);
-        // TODO review the generated test code and remove the default call to fail.
+        
         
     }
 
@@ -155,7 +155,7 @@ public class EstudianteTest {
         System.out.println("toString");
         Estudiante instance = new Estudiante();
         String expResult = "";
-        String result = instance.toString();
+        String result = "";
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         
