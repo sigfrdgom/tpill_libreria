@@ -23,9 +23,9 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    <reporting>
+  <!--  <reporting>
   <plugins>
-	<!-- Normally, we take off the dependency report, saves time. -->
+	Normally, we take off the dependency report, saves time. 
 	<plugin>
 		<groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-project-info-reports-plugin</artifactId>
@@ -35,7 +35,7 @@
 		</configuration>
 	</plugin>
 
-<!--	// integrate maven-cobertura-plugin to project site-->
+	// integrate maven-cobertura-plugin to project site
 	<plugin>
 		<groupId>org.codehaus.mojo</groupId>
 		<artifactId>cobertura-maven-plugin</artifactId>
@@ -49,5 +49,5 @@
 	</plugin>
 
    </plugins>
-</reporting>
+</reporting> -->
 </project>
