@@ -3,3 +3,5 @@ mvn cobertura:cobertura
 
 genera un reporte en 
 /carpetaProyecto/target/site/cobertura/index.html
+
+Codacy Badge
